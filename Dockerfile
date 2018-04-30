@@ -8,4 +8,4 @@ RUN npm install --save
 
 EXPOSE 80
 
-ENTRYPOINT npm run start-server
+ENTRYPOINT ./node_modules/.bin/http-server -p 80

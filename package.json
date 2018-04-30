@@ -5,12 +5,13 @@
   "main": "ngsw-worker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-server":"./node_modules/.bin/http-server -p 80"
+    "start-server": "./node_modules/.bin/http-server -p 80"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "express": "*"
   }
 }
